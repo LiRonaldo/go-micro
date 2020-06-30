@@ -1,0 +1,13 @@
+syntax="proto3";
+import "Models.proto";
+package Services;
+
+
+
+message ProdsRequest{
+  int32 size = 1;
+}
+
+message ProdListResponse{
+  repeated ProdModel data = 1;
+}
